@@ -22,12 +22,12 @@
 ## Introducción
 
 
-  - 🇪🇸 ESP -  Desarrollo de una sencila aplicación usando Node.js
+  -  Desarrollo de una sencilla aplicación usando Node.js, con diferentes tipos de funcionalidades.
 
 ---
  ## About
 
-  - 🇬🇧The main goal of this project is to put in practice some coding usign JavaScrip.
+  - 🇬🇧 The main goal of this project is to put in practice some coding usign JavaScrip.
    This project is being developed by [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/). 
 
 ---
