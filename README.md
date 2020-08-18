@@ -1,6 +1,6 @@
 
 #  A Node.js Project
-
+<img src="documentation/logo-node.png" width="200" height="133" />
 ---
 ##  Tabla de contenidos
 
@@ -78,14 +78,13 @@ La aplicación permite realizar las siguientes operaciones sencillas..
 ## Team
 > Contributors/People
 
-| <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">***Jhosef A. Cardich Palma - Full-Stack Software Developer***</a> | 
+| <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">**Jhosef A. Cardich Palma**</a> | 
 | :---: |
-| [![cat](documentation/profile_pic.png?s=150)](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/)   |
+|  <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank"><img src="documentation/profile_pic.png" width="200" height="230" /></a>   |
+|***Full-Stack Software Developer***|
 | Linkedin:   <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">` Jhosef A. Cardich Palma`</a>| 
 | Twitter: <a href="http://twitter.com/jhosefcardich" target="_blank">`@JhosefCardich`</a>| 
 |Instagram: <a href="http://instagram.com/arts_hot" target="_blank">`@ARTS-HOT`</a>
-
-
 
 
 
