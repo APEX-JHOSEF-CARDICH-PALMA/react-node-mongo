@@ -4,6 +4,7 @@
   "description": "This is a project to develop all the elemental characteristics of a Node application.",
   "main": "index.js",
   "scripts": {
+    "start": "node ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

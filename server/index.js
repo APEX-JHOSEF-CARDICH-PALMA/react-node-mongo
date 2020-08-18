@@ -32,4 +32,8 @@ const server = http.createServer(handleServer);
 
 server.listen(3000,function(){
   console.log('El servidor esta corriendo en el puerto 3000.. '.bgYellow.black)
-})
+});
+
+/*Ademas de eso, en el archivo package.json. se pueden configurar todos las ejecuciones que se
+quieran ejecutar cuando se ejecute el comando npm start (Esto tambien instalara todas las depe
+pendecias)*/
