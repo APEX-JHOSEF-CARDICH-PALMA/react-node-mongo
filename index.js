@@ -7,4 +7,4 @@ console.log(math.multiply(1,2));
 console.log(math.divide(1,2));
 console.log(math.divide(1,0));
 
-//Cuando una funcion retorna 'undefined' es porque no retorna nada ..  
+//Cuando una funcion retorna 'undefined' es porque no retorna nada..  
