@@ -1,6 +1,7 @@
 
 #  A Node.js Project
 <img src="documentation/logo-node.png" width="200" height="133" />
+
 ---
 
 ##  Tabla de contenidos
