@@ -108,7 +108,7 @@ Esto nos mostrará el resulado de las cuatro operaciones básicas de matemátias
 
 ----
 
-## Dependenciass
+## Dependencias
 
 
 - [Node.js 14.8.0](https://nodejs.org/dist/)
