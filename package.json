@@ -2,7 +2,7 @@
   "name": "javascript-characteristics",
   "version": "1.0.0",
   "type": "module",
-  "description": "This is a project to develop all the elemental characteristics of a Node application.",
+  "description": "Express API, withi new scalffolding developed by Jhosef Cardich.",
   "main": "index.js",
   "scripts": {
     "start": "node .",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JhosefCardich/javascript-node.js.git"
+    "url": "git+https://github.com/JhosefCardich/node-mongo-api"
   },
   "author": "Jhosef Anderson Cardich Palma <jhosef.anderson.cp@gmail.com> ",
   "license": "MIT ",
   "bugs": {
-    "url": "https://github.com/JhosefCardich/javascript-node.js/issues"
+    "url": "https://github.com/JhosefCardich/node-mongo-apiissues"
   },
-  "homepage": "https://github.com/JhosefCardich/javascript-node.js#readme",
+  "homepage": "https://github.com/JhosefCardich/node-mongo-api#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "express": "^4.17.1",
