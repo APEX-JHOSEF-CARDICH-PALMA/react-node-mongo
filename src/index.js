@@ -1,6 +1,10 @@
+//Importamos configuracion de Express
 import app from './config/express.js';
+//Importamos rutas
 import routes from './routes/index.route.js';
+
 import { createRequire } from 'module';
+
 const require = createRequire(import.meta.url);
 require('dotenv').config();
 

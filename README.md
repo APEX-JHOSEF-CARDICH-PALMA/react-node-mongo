@@ -100,8 +100,8 @@ $ brew install
 
 > Instalación de la aplicación
 
-```
-$ npm start
+```npm
+npm start
 ```
 
 > El sistema nos mostrará el siguiente mensaje por terminal
@@ -123,20 +123,30 @@ El servidor esta corriendo en el puerto 3000..
 - Mongo
 - mongoose (connector de codigo)
 - Express
-- Docker
+- Docker:
+
+  - Building image
+
+    ```npm
+     docker build -t nodemongo
+     docker images
+     docker run  -p 4000:3000 nodemongo
+    ```
 
 ### Dependencias de desarrollo:
 
 - [Eslint](https://eslint.org/) for node
 
-´´´
-\$ npm i -g eslint
-´´´
+```npm
+npm i -g eslint
+```
 
 - Prettier for node:
-  ´´´
-  \$ npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
-  ´´´
+
+  ```npm
+   npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
+  ```
+
 - To use the Arbnb Style:
 
 ´´´
