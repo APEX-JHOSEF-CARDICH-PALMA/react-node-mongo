@@ -69,7 +69,9 @@ $ node index.js
 <r></r1>
 
 - #### Operaciones Matemáticas
+
   Algunas de las operaciones más basicas de matemáticas, se iran agregando mas..
+
   > Situarse en la carpeta 'maths' y ejecutar
 
 ```
@@ -119,6 +121,7 @@ El servidor esta corriendo en el puerto 3000..
 
 - [Node.js 14.8.0](https://nodejs.org/dist/)
 - Mongo
+- mongoose (connector de codigo)
 - Express
 - Docker
 
