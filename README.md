@@ -1,5 +1,5 @@
 
-#  Node.js applications 
+#  Node.js + Mongo 
 <img src="documentation/logo-node.png" width="200" height="133"/>
 
 ---
@@ -116,8 +116,20 @@ Esta es una las varias sencillas aplicaciones que se han desarrollado en cada un
 
 ## Dependencias
 
-
+### Dependencias de la aplicación: 
 - [Node.js 14.8.0](https://nodejs.org/dist/)
+- Mongo
+- Express
+- Docker 
+
+### Dependencias de desarrollo:
+
+- Eslint: Arbnb, prettier
+- 
+
+
+
+
 ----
 ## Team
 > Contributors/People
