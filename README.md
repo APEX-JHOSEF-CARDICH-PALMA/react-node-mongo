@@ -9,13 +9,11 @@
 
 - [Introduccíon](#Introducción)
 - [About](#About )
-- [Instalación](#instalación)
+- [Iniciando](#Iniciando)
 - [Características](#Características)
+- [Instalación](#instalación)
 - [Dependencias](#Dependencias)
 - [Team](#team)
-
-
-
 
 ---
 
@@ -38,38 +36,16 @@
 
 
 
- ---
+---
 
+## Iniciando
 
-## Instalación
+Para iniciar la aplicación se utilizara
+- Docker compose
+- Docker 
 
- - El proyecto se iniciara mediante [Node](https://nodejs.org/).
- En este caso la instalación de Node.js se hace a travéz de Homebrew en OSX.
- Verificar mas pasos en la web de Hombrew...
-
-> Instalación Node.js via homebrew on mac  (consultar en la web para Windows, Linux..)
-```
-$ brew install 
- ```
-- Después de haber installado Node.js con npm en el sistema anfitrión
-se procedera a situarse la terminal en el directorio raíz del proyecto y ejecutar el siguiente comando
-para instalar las dependencias e iniciar el sistema (Este ejecuta un secillo servidor en el puerto 3000).
-
-> Instalación de la aplicación 
-```
-$ npm start 
- ```
-
-> El sistema nos mostrará el siguiente mensaje por terminal
-```
-El servidor esta corriendo en el puerto 3000..
- ```
-- De esta manera se ejecuta un servidor sencillo que muestra un mensaje por la terminal y además se puede observar en la dirección 'localHost:3000' un mensaje de bienvenida. 
-Esta es una las varias sencillas aplicaciones que se han desarrollado en cada una de las carpetas disponibles dentro del sistema. 
 
 ---
- 
-
 ## Características
 
 Este repositorio cuenta con las siguientes aplicaciones:
@@ -107,6 +83,36 @@ Esto nos mostrará el resulado de las cuatro operaciones básicas de matemátias
 
 
 ----
+
+
+## Instalación
+
+ - El proyecto se iniciara mediante [Node](https://nodejs.org/).
+ En este caso la instalación de Node.js se hace a travéz de Homebrew en OSX.
+ Verificar mas pasos en la web de Hombrew...
+
+> Instalación Node.js via homebrew on mac  (consultar en la web para Windows, Linux..)
+```
+$ brew install 
+ ```
+- Después de haber installado Node.js con npm en el sistema anfitrión
+se procedera a situarse la terminal en el directorio raíz del proyecto y ejecutar el siguiente comando
+para instalar las dependencias e iniciar el sistema (Este ejecuta un secillo servidor en el puerto 3000).
+
+> Instalación de la aplicación 
+```
+$ npm start 
+ ```
+
+> El sistema nos mostrará el siguiente mensaje por terminal
+```
+El servidor esta corriendo en el puerto 3000..
+ ```
+- De esta manera se ejecuta un servidor sencillo que muestra un mensaje por la terminal y además se puede observar en la dirección 'localHost:3000' un mensaje de bienvenida. 
+Esta es una las varias sencillas aplicaciones que se han desarrollado en cada una de las carpetas disponibles dentro del sistema. 
+
+---
+ 
 
 ## Dependencias
 
