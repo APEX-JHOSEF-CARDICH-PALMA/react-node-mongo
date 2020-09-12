@@ -124,7 +124,8 @@ Esta es una las varias sencillas aplicaciones que se han desarrollado en cada un
 
 ### Dependencias de desarrollo:
 
-- Eslint: Arbnb, prettier
+- [Eslint](https://eslint.org/)
+ -  Arbnb, prettier
 - 
 
 
