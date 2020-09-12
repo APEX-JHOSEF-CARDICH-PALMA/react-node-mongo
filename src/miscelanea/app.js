@@ -1,5 +1,5 @@
 //creacion de un servidor..
-// eslint-disable-line global-require
+
 const http = require('http');
 //Despues de haber usado npm install colors
 const colors = require('colors');

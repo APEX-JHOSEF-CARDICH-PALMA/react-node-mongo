@@ -1,5 +1,5 @@
-import HttpStatus from "http-status-code";
-import User from "../models/user.model.js";
+import HttpStatus from 'http-status-code';
+import User from '../models/user.model.js';
 
 export function findAll(req, res) {
   User.forge()
@@ -54,7 +54,7 @@ export function deleteUser(req, res) {
         .then(() =>
           res.json({
             error: false,
-            data: { message: "User deleted successfully." },
+            data: { message: 'User deleted successfully.' },
           })
         )
         .catch((err) =>
