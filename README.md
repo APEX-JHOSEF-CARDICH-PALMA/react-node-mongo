@@ -1,14 +1,13 @@
+# Node.js + Mongo
 
-#  Node.js + Mongo 
 <img src="documentation/logo-node.png" width="200" height="133"/>
 
 ---
 
-##  Tabla de contenidos
-
+## Tabla de contenidos
 
 - [Introduccíon](#Introducción)
-- [About](#About )
+- [About](#About)
 - [Iniciando](#Iniciando)
 - [Características](#Características)
 - [Instalación](#instalación)
@@ -17,35 +16,32 @@
 
 ---
 
- 
 ## Introducción
 
-
-  -  Desarrollo de una sencilla aplicación usando Node.js, con diferentes tipos de funcionalidades.
-
----
- ## About
-
-  - 🇬🇧 The main goal of this project is to put in practice some coding usign JavaScrip.
-   This project is being developed by [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/). 
+- Desarrollo de una sencilla aplicación usando Node.js, con diferentes tipos de funcionalidades.
 
 ---
-  - 🇪🇸 El objetivo principal de este proyecto es el uso de buenas prácticas de programación en JavaScript, usando Node.js.   Este proyecto esta siendo desarrollado por [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/).
 
+## About
 
+- 🇬🇧 The main goal of this project is to put in practice some coding usign JavaScrip.
+  This project is being developed by [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/).
 
+---
 
+- 🇪🇸 El objetivo principal de este proyecto es el uso de buenas prácticas de programación en JavaScript, usando Node.js. Este proyecto esta siendo desarrollado por [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/).
 
 ---
 
 ## Iniciando
 
 Para iniciar la aplicación se utilizara
-- Docker compose
-- Docker 
 
+- Docker compose
+- Docker
 
 ---
+
 ## Características
 
 Este repositorio cuenta con las siguientes aplicaciones:
@@ -54,98 +50,117 @@ Este repositorio cuenta con las siguientes aplicaciones:
 
 ```
 node [filename.js]
- ```
+```
 
-- #### Un sencillo servidor con Express..
+#### Un sencillo servidor con Express
 
+- Un servidor
 
-- #### Un sencillo servidor
+#### Un sencillo servidor
 
-Por defecto es la que se ejecuta cuando se instala la aplicacion por primera vez. 
+Por defecto es la que se ejecuta cuando se instala la aplicacion por primera vez.
+
 > Para ejecutar el servidor, situarse en la carpeta 'server 'y ejecutar:
 
-
-````
+```
 $ node index.js
-````
+```
 
 <r></r1>
 
-- #### Operaciones Matemáticas 
-Algunas de las operaciones más basicas de matemáticas, se iran agregando mas..
-> Situarse en la carpeta 'maths' y ejecutar
+- #### Operaciones Matemáticas
+  Algunas de las operaciones más basicas de matemáticas, se iran agregando mas..
+  > Situarse en la carpeta 'maths' y ejecutar
 
 ```
 node index.js
- ```
+```
 
 Esto nos mostrará el resulado de las cuatro operaciones básicas de matemátias.
 
-
-----
-
+---
 
 ## Instalación
 
- - El proyecto se iniciara mediante [Node](https://nodejs.org/).
- En este caso la instalación de Node.js se hace a travéz de Homebrew en OSX.
- Verificar mas pasos en la web de Hombrew...
+- El proyecto se iniciara mediante [Node](https://nodejs.org/).
+  En este caso la instalación de Node.js se hace a travéz de Homebrew en OSX.
+  Verificar mas pasos en la web de Hombrew...
 
-> Instalación Node.js via homebrew on mac  (consultar en la web para Windows, Linux..)
+> Instalación Node.js via homebrew on mac (consultar en la web para Windows, Linux..)
+
 ```
-$ brew install 
- ```
+$ brew install
+```
+
 - Después de haber installado Node.js con npm en el sistema anfitrión
-se procedera a situarse la terminal en el directorio raíz del proyecto y ejecutar el siguiente comando
-para instalar las dependencias e iniciar el sistema (Este ejecuta un secillo servidor en el puerto 3000).
+  se procedera a situarse la terminal en el directorio raíz del proyecto y ejecutar el siguiente comando
+  para instalar las dependencias e iniciar el sistema (Este ejecuta un secillo servidor en el puerto 3000).
 
-> Instalación de la aplicación 
+> Instalación de la aplicación
+
 ```
-$ npm start 
- ```
+$ npm start
+```
 
 > El sistema nos mostrará el siguiente mensaje por terminal
+
 ```
 El servidor esta corriendo en el puerto 3000..
- ```
-- De esta manera se ejecuta un servidor sencillo que muestra un mensaje por la terminal y además se puede observar en la dirección 'localHost:3000' un mensaje de bienvenida. 
-Esta es una las varias sencillas aplicaciones que se han desarrollado en cada una de las carpetas disponibles dentro del sistema. 
+```
+
+- De esta manera se ejecuta un servidor sencillo que muestra un mensaje por la terminal y además se puede observar en la dirección 'localHost:3000' un mensaje de bienvenida.
+  Esta es una las varias sencillas aplicaciones que se han desarrollado en cada una de las carpetas disponibles dentro del sistema.
 
 ---
- 
 
 ## Dependencias
 
-### Dependencias de la aplicación: 
+### Dependencias de la aplicación:
+
 - [Node.js 14.8.0](https://nodejs.org/dist/)
 - Mongo
 - Express
-- Docker 
+- Docker
 
 ### Dependencias de desarrollo:
 
-- [Eslint](https://eslint.org/)
- -  Arbnb, prettier
-- 
+- [Eslint](https://eslint.org/) for node
 
+´´´
+\$ npm i -g eslint
+´´´
 
+- Prettier for node:
+  ´´´
+  \$ npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
+  ´´´
+- To use the Arbnb Style:
 
+´´´
+\$ npm i -D eslint-config-airbnb-base
+´´´
 
-----
-## Team
-> Contributors/People
+- configure the eslint style (generating config file):
 
-| <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">**Jhosef A. Cardich Palma**</a> | 
-| :---: |
-|  <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank"><img src="documentation/profile_pic.png" width="200" height="230" /></a>   |
-|***Full-Stack Software Developer***|
-| Linkedin:   <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">` Jhosef A. Cardich Palma`</a>| 
-| Twitter: <a href="http://twitter.com/jhosefcardich" target="_blank">`@JhosefCardich`</a>| 
-|Instagram: <a href="http://instagram.com/arts_hot" target="_blank">`@ARTS-HOT`</a>
+´´´
+\$ eslint --init
 
-
-
+´´´
+In the file **_.eslintrc.js_**, configure the rules to add the AirBnb Style
 
 ---
 
+## Team
 
+> Contributors/People
+
+|                     <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">**Jhosef A. Cardich Palma**</a>                      |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank"><img src="documentation/profile_pic.png" width="200" height="230" /></a> |
+|                                                                  **_Full-Stack Software Developer_**                                                                   |
+|                 Linkedin: <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">` Jhosef A. Cardich Palma`</a>                 |
+|                                        Twitter: <a href="http://twitter.com/jhosefcardich" target="_blank">`@JhosefCardich`</a>                                        |
+
+|Instagram: <a href="http://instagram.com/arts_hot" target="_blank">`@ARTS-HOT`</a>
+
+---

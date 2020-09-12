@@ -1,7 +1,7 @@
 //creacion de un servidor..
+// eslint-disable-line global-require
 const http = require('http');
-
-//Despues de haber usado npm install colors 
+//Despues de haber usado npm install colors
 const colors = require('colors');
 
 /*En este caso el callaback de la funcion create server nos permite enviar y recibir informacion del servidor
@@ -17,21 +17,19 @@ http.createServer(function(req,res){
 */
 
 //------------------------------------------------------------------------------------
-//Tambien podemos escribir el codigo mas ordenadamente.. 
+//Tambien podemos escribir el codigo mas ordenadamente..
 
-const handleServer = function(req,res){
-  res.writeHead(200,{'content-type':'txt/html'});
+const handleServer = function (req, res) {
+  res.writeHead(200, { 'content-type': 'txt/html' });
   res.write('<h1> Hola mundo.. (respuesta del servidor nueva..) </h1>');
   res.end();
-}
+};
 
 //Pasamos la funcion anterior en los paramtros a la hora de crear el server..
 const server = http.createServer(handleServer);
-
-//Despues podemos usarlo para activarlo y decir por cual puerto esta escuchando.. 
-
-server.listen(3000,function(){
-  console.log('El servidor esta corriendo en el puerto 3000.. '.bgYellow.black)
+//Despues podemos usarlo para activarlo y decir por cual puerto esta escuchando..
+server.listen(3000, function () {
+  console.log('El servidor esta corriendo en el puerto 3000.. '.bgYellow.black);
 });
 
 /*Ademas de eso, en el archivo package.json. se pueden configurar todos las ejecuciones que se
