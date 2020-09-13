@@ -124,6 +124,7 @@ El servidor esta corriendo en el puerto 3000..
 - mongoose (connector de codigo)
 - Express
 - Docker:
+  Mongo is running on the port 27018 and Express on the port 5000:
 
   - Building image
 
@@ -132,6 +133,13 @@ El servidor esta corriendo en el puerto 3000..
      docker images
      docker run  -p 4000:3000 nodemongo
     ```
+
+  - Build containter:
+
+  ```docker
+  docker-compose build
+  docker-compose up
+  ```
 
 ### Dependencias de desarrollo:
 
