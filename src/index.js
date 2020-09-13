@@ -13,7 +13,10 @@ const require = createRequire(import.meta.url);
 require('dotenv').config();
 
 mongoose
-  .connect('mongodb://mongo/mydatabase')
+  .connect('mongodb://mongo/mydatabase', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
   .then((db) => console.log('Db is connected to', db.connection.host))
   .catch((err) =>
     console.log('Error en la conexion de la base de datos: ', err)

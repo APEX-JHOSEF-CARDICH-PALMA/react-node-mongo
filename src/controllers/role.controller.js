@@ -1,5 +1,5 @@
-import HttpStatus from "http-status-code";
-import Role from "../models/role.model.js";
+import HttpStatus from 'http-status-code';
+import Role from '../models/role.model.js';
 
 /**
  * Find all roles

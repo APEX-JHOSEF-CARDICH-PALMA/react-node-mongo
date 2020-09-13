@@ -1,6 +1,6 @@
 # Node.js + Mongo
 
-<img src="documentation/logo-node.png" width="200" height="133"/>
+<img src="src/documentation/logo-node.png" width="200" height="133"/>
 
 ---
 
@@ -175,12 +175,12 @@ In the file **_.eslintrc.js_**, configure the rules to add the AirBnb Style
 
 > Contributors/People
 
-|                     <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">**Jhosef A. Cardich Palma**</a>                      |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank"><img src="documentation/profile_pic.png" width="200" height="230" /></a> |
-|                                                                  **_Full-Stack Software Developer_**                                                                   |
-|                 Linkedin: <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">` Jhosef A. Cardich Palma`</a>                 |
-|                                        Twitter: <a href="http://twitter.com/jhosefcardich" target="_blank">`@JhosefCardich`</a>                                        |
+|                       <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">**Jhosef A. Cardich Palma**</a>                        |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank"><img src="src/documentation/profile_pic.png" width="200" height="230" /></a> |
+|                                                                    **_Full-Stack Software Developer_**                                                                     |
+|                   Linkedin: <a href="https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/" target="_blank">` Jhosef A. Cardich Palma`</a>                   |
+|                                          Twitter: <a href="http://twitter.com/jhosefcardich" target="_blank">`@JhosefCardich`</a>                                          |
 
 |Instagram: <a href="http://instagram.com/arts_hot" target="_blank">`@ARTS-HOT`</a>
 
