@@ -1,4 +1,4 @@
-# Node.js + Mongo
+# Node.js + Mongo + React
 
 <img src="src/documentation/logo-node.png" width="200" height="133"/>
 
@@ -51,10 +51,6 @@ Este repositorio cuenta con las siguientes aplicaciones:
 ```
 node [filename.js]
 ```
-
-#### Un sencillo servidor con Express
-
-- Un servidor
 
 #### Un sencillo servidor
 
@@ -121,8 +117,9 @@ El servidor esta corriendo en el puerto 3000..
 
 - [Node.js 14.8.0](https://nodejs.org/dist/)
 - Mongo
-- mongoose (connector de codigo)
-- Express Docker:
+- mongoose (connector de mongoDB)
+- Express 
+- Docker:
   Mongo is running on the port 27018 and Express on the port 5000:
 
   - Building image
