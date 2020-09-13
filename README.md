@@ -122,8 +122,7 @@ El servidor esta corriendo en el puerto 3000..
 - [Node.js 14.8.0](https://nodejs.org/dist/)
 - Mongo
 - mongoose (connector de codigo)
-- Express
-- Docker:
+- Express Docker:
   Mongo is running on the port 27018 and Express on the port 5000:
 
   - Building image
@@ -157,16 +156,16 @@ npm i -g eslint
 
 - To use the Arbnb Style:
 
-´´´
-\$ npm i -D eslint-config-airbnb-base
-´´´
+```
+ npm i -D eslint-config-airbnb-base
+```
 
 - configure the eslint style (generating config file):
 
-´´´
-\$ eslint --init
+```
+ eslint --init
+```
 
-´´´
 In the file **_.eslintrc.js_**, configure the rules to add the AirBnb Style
 
 ---
